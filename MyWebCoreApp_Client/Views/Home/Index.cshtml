@@ -1,0 +1,70 @@
+﻿@*@{
+    ViewData["Title"] = "ClientWebApp";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Currency (dollars) from numbers into words converter</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>*@
+
+@model decimal
+
+@{
+    ViewData["Title"] = "ClientWebApp";
+    string result = ViewBag.Result ?? "";
+    string amount = ViewBag.Amount ?? "";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Currency (dollars) from numbers into words converter</h1>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <form method="post" asp-controller="Convert" asp-action="ConvertToWords">
+                <div class="form-group">
+                    <label for="amount">Enter the amount in dollars:</label>
+                    <input type="text" class="form-control" id="amount" name="amount" value="@amount" required>
+                </div>
+                <p></p>
+                <button type="submit" class="btn btn-primary">Convert</button>
+            </form>
+            <div>
+                @if (!string.IsNullOrEmpty(result))
+                {
+                    <br />
+                    @if (result.StartsWith("Error:"))
+                    {
+                        <h4>
+                            <span style="color: red;">Error:</span>
+                        </h4>
+                        <p style="color: red">@result.Substring(6)</p>
+                        
+                    }
+                    else
+                    {
+                        <h4>
+                            <span>Result:</span>
+                        </h4>
+                        <p>@result</p>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+
+    @if (Model != decimal.Zero)
+    {
+        <div class="row mt-4">
+            <div class="col-md-6 offset-md-3">
+                <h4>Result:</h4>
+                <p>@Model.ToString("C") in words is: @result</p>
+            </div>
+        </div>
+    }
+</div>
+
+
+
+

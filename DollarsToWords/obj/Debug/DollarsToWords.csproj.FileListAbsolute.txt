@@ -1,0 +1,15 @@
+C:\Users\Dmitriy\source\repos\DollarsToWords\DollarsToWords\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Dmitriy\source\repos\DollarsToWords\DollarsToWords\bin\Debug\DollarsToWords.exe.config
+C:\Users\Dmitriy\source\repos\DollarsToWords\DollarsToWords\bin\Debug\DollarsToWords.exe
+C:\Users\Dmitriy\source\repos\DollarsToWords\DollarsToWords\bin\Debug\DollarsToWords.pdb
+C:\Users\Dmitriy\source\repos\DollarsToWords\DollarsToWords\bin\Debug\AdonisUI.ClassicTheme.dll
+C:\Users\Dmitriy\source\repos\DollarsToWords\DollarsToWords\bin\Debug\AdonisUI.dll
+C:\Users\Dmitriy\source\repos\DollarsToWords\DollarsToWords\bin\Debug\AdonisUI.xml
+C:\Users\Dmitriy\source\repos\DollarsToWords\DollarsToWords\bin\Debug\AdonisUI.ClassicTheme.xml
+C:\Users\Dmitriy\source\repos\DollarsToWords\DollarsToWords\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Dmitriy\source\repos\DollarsToWords\DollarsToWords\obj\Debug\DollarsToWords.csproj.AssemblyReference.cache
+C:\Users\Dmitriy\source\repos\DollarsToWords\DollarsToWords\obj\Debug\DollarsToWords.csproj.SuggestedBindingRedirects.cache
+C:\Users\Dmitriy\source\repos\DollarsToWords\DollarsToWords\obj\Debug\DollarsToWords.csproj.CoreCompileInputs.cache
+C:\Users\Dmitriy\source\repos\DollarsToWords\DollarsToWords\obj\Debug\DollarsToWords.csproj.CopyComplete
+C:\Users\Dmitriy\source\repos\DollarsToWords\DollarsToWords\obj\Debug\DollarsToWords.exe
+C:\Users\Dmitriy\source\repos\DollarsToWords\DollarsToWords\obj\Debug\DollarsToWords.pdb

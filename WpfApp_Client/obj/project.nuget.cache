@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "dUTEkVYHO82kezhVGvfZXpQJ+eFTuhKanOk4JUXuInfQeU4iChVYBHvZ+jKYC78xz/elNH8hLRa9p2N4Bqn12w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Dmitriy\\source\\repos\\DollarsToWords\\WpfApp_Client\\WpfApp_Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dmitriy\\.nuget\\packages\\adonisui\\1.17.1\\adonisui.1.17.1.nupkg.sha512",
+    "C:\\Users\\Dmitriy\\.nuget\\packages\\adonisui.classictheme\\1.17.1\\adonisui.classictheme.1.17.1.nupkg.sha512",
+    "C:\\Users\\Dmitriy\\.nuget\\packages\\microsoft.netcore.platforms\\3.0.0\\microsoft.netcore.platforms.3.0.0.nupkg.sha512",
+    "C:\\Users\\Dmitriy\\.nuget\\packages\\microsoft.win32.systemevents\\4.6.0\\microsoft.win32.systemevents.4.6.0.nupkg.sha512",
+    "C:\\Users\\Dmitriy\\.nuget\\packages\\system.drawing.common\\4.6.0\\system.drawing.common.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

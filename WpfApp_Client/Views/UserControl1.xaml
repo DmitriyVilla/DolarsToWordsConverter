@@ -1,0 +1,50 @@
+﻿<UserControl x:Class="WpfApp_Client.Views.UserControl1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:WpfApp_Client.Models"
+             xmlns:commands="clr-namespace:WpfApp_Client.Commands"
+             mc:Ignorable="d"
+             d:DesignHeight="400" d:DesignWidth="600">
+
+    <UserControl.DataContext>
+        <local:Entity/>
+    </UserControl.DataContext>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Label x:Name="MainLabel" Content="From numbers (dollars) into words converter" Margin="10,10,0,10" HorizontalAlignment="Center" FontSize="20" Grid.Row="0" Grid.ColumnSpan="2"/>
+
+        <Label Content="Enter amount in dollars:" Margin="10,10,0,0" HorizontalAlignment="Left" FontSize="16" Grid.Row="1"  />
+
+        <TextBox  x:Name="InputTextBox"  Grid.Row="2" Grid.Column="0" Margin="10,0,0,10" Height="30" FontSize="16" Text="{Binding Path=Amount}" >
+            <TextBox.ToolTip>
+                <ToolTip>
+                    <TextBlock>
+                        The maximum number is 999 999 999. 
+                        The maximum number of cents is 99.
+                        The separator between dollars and cents is ‘,’ (comma).
+                    </TextBlock>
+                </ToolTip>
+            </TextBox.ToolTip>
+
+        </TextBox>
+
+        <Button x:Name="ConvertBtn"  Grid.Row="2" Grid.Column="1" Margin="10,0,10,10" Content="Convert" FontSize="16" Width="100" Command="{Binding Path= ConvertCommand}" />
+        <Label x:Name="ResultHeader" Grid.Row="3" Content="{Binding ResultHeader}" Foreground="{Binding ResultHeaderColor}" Margin="10,0,0,0" HorizontalAlignment="Left" FontSize="20"  />
+        <TextBlock x:Name="OutputTextBlock" Grid.Row="4" Margin="10,10,10,10" Height="Auto" Width="auto" Grid.ColumnSpan="2" FontSize="16" Text="{Binding Path=Answer}" Foreground="{Binding AnswerTBColor}" TextWrapping="Wrap" />
+        
+    </Grid>
+</UserControl>
