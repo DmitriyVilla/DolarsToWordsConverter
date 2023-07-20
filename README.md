@@ -17,6 +17,7 @@ Screenshots:
 ![image](https://github.com/DmitriyVilla/DolarsToWordsConverter/assets/77011213/572c9a94-a960-4d4d-8a18-4f2d9c77ac9e)
 
 4) Desktop application client (WPF)
+
 ![image](https://github.com/DmitriyVilla/DolarsToWordsConverter/assets/77011213/94a0f455-74f9-4c63-9ce4-6ade2460b8d7)
 ![image](https://github.com/DmitriyVilla/DolarsToWordsConverter/assets/77011213/69d2e6ff-4deb-47b3-9a7a-1ba44dd2a49b)
 
